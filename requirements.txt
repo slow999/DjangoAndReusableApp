@@ -1,0 +1,2 @@
+django==2.2.13
+django-polls==0.1
