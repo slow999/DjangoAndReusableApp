@@ -6,4 +6,4 @@ def index(request):
     num = 410230
     percentage = 70
     days = 30
-    return render(request, 'polls/index.html', context={'number': num, 'percentage': percentage, 'days': days})
+    return render(request, 'django-polls/index.html', context={'number': num, 'percentage': percentage, 'days': days})
